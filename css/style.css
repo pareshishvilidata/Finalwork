@@ -580,3 +580,106 @@ footer {
 
 /* მე-2 გვერდი არტიკლი1 */
 
+.artworkarticle1 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.select {
+    display: flex;
+    padding-top: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose {
+    border: none;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 55px;
+}
+
+.artarticle1title {
+    padding-top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #402101;
+    padding-left: 25px;
+
+}
+
+.first_row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 95px;
+}
+
+.second_row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.Product_Name {
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B53B1B;
+}
+
+.price2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #402101;
+    padding-top: 30px;
+}
+
+.shadow {
+    transition: 0.7s;
+}
+
+.shadow:hover {
+    box-shadow: 10px 10px 15px #B53B1B;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 160px;
+}
+
+.number {
+    border: 2px solid #B53B1B;
+    width: 56px;
+    height: 56px;
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    font-size: 24px;
+}
+
+.colored {
+    background-color: #B53B1B;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.fa-cart-plus {
+    margin-left: 295px;
+    background: #B53B1B;
+}
