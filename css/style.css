@@ -422,3 +422,119 @@ input[type=submit] {
     font-size: 24px;
     color: #FFFFFF;
 }
+
+/* ფუტერი */
+
+footer {
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background: #402101;
+}
+
+.foothelp {
+    padding-top: 35px;
+}
+
+.help {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.help:hover {
+    color: #B53B1B;
+}
+
+.midhelp {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logotitle1 {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.footlogo {
+    display: flex;
+    padding-top: 35px;
+}
+
+.logotitle2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #D5906E;
+}
+
+.footicons {
+    padding-top: 45px;
+}
+
+.footinfo {
+    padding-top: 35px;
+}
+
+.infotext {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.midinfo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icons {
+    padding-top: 35px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icons_info {
+    display: flex;
+}
+
+.fa-phone {
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.fa-phone:hover {
+    color: #B53B1B;
+}
+
+.fa-envelope {
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.fa-envelope:hover {
+    color: #B53B1B;
+}
+
+.fa-location-dot {
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.fa-location-dot:hover {
+    color: #B53B1B;
+}
