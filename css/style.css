@@ -124,13 +124,16 @@ li {
     0% {
         color: #FFFFFF;
     }
-    25%{
+
+    25% {
         color: #D5906E;
     }
-    50%{
+
+    50% {
         color: #FFFFFF;
     }
-    75%{
+
+    75% {
         color: #D5906E;
     }
 }
@@ -163,6 +166,39 @@ li {
     margin-left: 200px;
     transition: 0.7s;
 }
-.sec1button:hover{
+
+.sec1button:hover {
     background-color: #D5906E;
+}
+
+/* არტიკლი1 */
+
+article {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.card {
+    transition: 0.7s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px #D5906E;
+}
+
+.cardtext {
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B53B1B;
 }
