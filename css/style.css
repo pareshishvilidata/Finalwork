@@ -245,3 +245,63 @@ article {
 .gallerydiv2 {
     padding-bottom: 100px;
 }
+
+/* არტიკლი2 */
+
+.article2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.art2title {
+    text-align: center;
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #402101;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.art2div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 160px;
+    gap: 60px;
+}
+
+.art2card {
+    position: relative;
+    transition: 0.7s;
+}
+
+.art2card:hover {
+    box-shadow: 10px 10px 10px black;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    padding-top: 230px;
+    padding-left: 20px;
+    color: #B53B1B;
+    width: 90px;
+    height: 50px;
+}
+
+.fa-angle-left {
+    color: #FFFFFF;
+    background-color: #B53B1B;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.fa-angle-right {
+    color: #FFFFFF;
+    background-color: #B53B1B;
+    font-size: 44px;
+    cursor: pointer;
+}
+
