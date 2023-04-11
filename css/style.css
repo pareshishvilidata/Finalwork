@@ -34,7 +34,7 @@ li {
 
 .navtext {
     color: #FFFFFF;
-    transition: 0.8s;
+    transition: 0.7s;
 }
 
 .navtext:hover {
@@ -47,7 +47,6 @@ li {
 
 .headtitle {
     display: flex;
-    transition: 0.8s;
     transition: 0.7s;
 }
 
@@ -91,4 +90,79 @@ li {
 
 .fa-cart-shopping {
     color: #FFFFFF;
+}
+
+/* სექცია1 */
+
+.section1 {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/homebackimg.png");
+}
+
+.sec1div {
+    width: 750px;
+    height: 250px;
+    align-items: center;
+}
+
+.sec1title {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    animation: title 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    0% {
+        color: #FFFFFF;
+    }
+    25%{
+        color: #D5906E;
+    }
+    50%{
+        color: #FFFFFF;
+    }
+    75%{
+        color: #D5906E;
+    }
+}
+
+.sec1text {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+.sec1button {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    width: 310px;
+    height: 55px;
+    border: 2px solid #D5906E;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 200px;
+    transition: 0.7s;
+}
+.sec1button:hover{
+    background-color: #D5906E;
 }
