@@ -763,3 +763,53 @@ input[type=message] {
     font-size: 16px;
     color: #FFFFFF;
 }
+
+/* კონტაქტის_სექცია2 */
+
+.contactsection2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact {
+    background: rgba(213, 144, 110, 0.3);
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.con_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #402101;
+    text-align: center;
+}
+
+.con_info {
+    padding-top:10px;
+}
+
+.con_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #B53B1B;
+    padding-top: 30px;
+}
+
+.con_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #623932;
+    padding-top: 10px;
+}
+
+.info_map{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
