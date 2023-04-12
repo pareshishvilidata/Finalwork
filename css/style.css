@@ -92,6 +92,12 @@ li {
     color: #FFFFFF;
 }
 
+.fa-bars,
+.fa-xmark {
+    color: #FFFFFF;
+    display: none;
+}
+
 /* სექცია1 */
 
 .section1 {
@@ -787,7 +793,7 @@ input[type=message] {
 }
 
 .con_info {
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 .con_name {
@@ -808,7 +814,7 @@ input[type=message] {
     padding-top: 10px;
 }
 
-.info_map{
+.info_map {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;

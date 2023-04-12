@@ -1,0 +1,28 @@
+@media (max-width: 720px) {
+
+    header {
+        width: 720px;
+    }
+
+    .navigation {
+        height: 172px;
+        background: #B53B1B;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .headtitle {
+        margin-left: 100px;
+    }
+    .non_card{
+        display: none;
+    }
+
+    .non_img{
+        display: none;
+    }
+
+    .gallerydiv2{
+        margin-right: 200px;
+    }
+}
