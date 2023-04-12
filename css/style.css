@@ -683,3 +683,83 @@ input[type=text] {
     margin-left: 295px;
     background: #B53B1B;
 }
+
+/* კონტაქტის_სექცია1 */
+
+.contactsection {
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 240px;
+    padding-top: 200px;
+    background-image: url('../images/conbackimg.png');
+}
+
+.sub_div {
+    width: 500px;
+    height: 400px;
+    background: rgba(64, 33, 1, 0.73);
+    border: 1px solid #FFFFFF;
+    box-shadow: -1px -1px 4px #FFFFFF;
+    border-radius: 10px;
+}
+
+.sub_div_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-left: 30px;
+}
+
+input[type=name] {
+    width: 190px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #B53B1B;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.Email[type=Email] {
+    margin-left: 55px;
+    width: 190px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #B53B1B;
+    background: transparent;
+}
+
+input[type=message] {
+    width: 440px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #B53B1B;
+    background: transparent;
+}
+
+.subbtn[type=submit] {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 147px;
+    height: 56px;
+    background: #D5906E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
